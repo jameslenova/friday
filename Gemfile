@@ -9,7 +9,8 @@ gem 'rinku', :require => 'rails_rinku'
 
 gem 'simple_form', '1.5.1'
 gem 'jquery-rails', '1.0.14'
-gem 'mysql2', '~> 0.3.7'
+#gem 'mysql2', '~> 0.3.7'
+gem 'pg'
 
 
 
