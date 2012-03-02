@@ -16,7 +16,7 @@ gem 'jquery-rails', '1.0.14'
 
 gem 'sqlite3', '~> 1.3.5', :platform => 'ruby'
 gem 'mysql2', '~> 0.3.7'
-gem 'unicorn'
+
 
 platform :ruby do
   #gem 'mysql2', '~> 0.2.7'
