@@ -13,14 +13,16 @@ gem 'jquery-rails', '1.0.14'
 #gem 'mysql2', '~> 0.3.7'
 #gem "mysql2", "0.3.7"
 #gem 'pg'
+gem  'mysql2' ,'~> 0.3.11',:platform => 'ruby'
+
 
 gem 'sqlite3', '~> 1.3.5', :platform => 'ruby'
-gem 'mysql2', '~> 0.3.7'
+#gem 'mysql2', '~> 0.3.7'
 
 
 platform :ruby do
   #gem 'mysql2', '~> 0.2.7'
- gem 'mysql2', '~> 0.3.7'
+ #gem 'mysql2', '~> 0.3.7'
   gem 'unicorn'
 end
 
