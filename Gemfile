@@ -18,7 +18,7 @@ gem 'sqlite3', '~> 1.3.5', :platform => 'ruby'
 
 platform :ruby do
   #gem 'mysql2', '~> 0.2.7'
- gem 'mysql2', '~> 0.3.7', :group => :production
+ gem 'mysql2', '~> 0.3.7'
   gem 'unicorn'
 end
 
