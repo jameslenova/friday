@@ -5,8 +5,7 @@ gem 'rails', '3.1.1'
 #gem 'rinku', '~> 1.2.2', :require => 'rails_rinku'
 
 gem 'rinku', :require => 'rails_rinku'
-gem 'sqlite3' 
-
+gem 'bundler', '~> 1.0.17'
 
 
 gem 'simple_form', '1.5.1'
@@ -15,14 +14,11 @@ gem 'jquery-rails', '1.0.14'
 #gem "mysql2", "0.3.7"
 #gem 'pg'
 
-
+gem 'sqlite3', '~> 1.3.5', :platform => 'ruby'
 
 platform :ruby do
   #gem 'mysql2', '~> 0.2.7'
  gem 'mysql2', '~> 0.3.7', :group => :production
-
-
-  gem 'sqlite3' 
   gem 'unicorn'
 end
 
