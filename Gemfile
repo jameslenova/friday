@@ -9,12 +9,13 @@ gem 'rinku', :require => 'rails_rinku'
 
 gem 'simple_form', '1.5.1'
 gem 'jquery-rails', '1.0.14'
+gem 'mysql2', '~> 0.3.7'
+
+
 
 platform :ruby do
   #gem 'mysql2', '~> 0.2.7'
 #gem 'mysql2', '~> 0.3.7', :group => :production
-gem 'mysql2', '~> 0.3.7'
-
 
 
   gem 'sqlite3' 
@@ -37,7 +38,7 @@ end
 # and rake tasks are available in development mode:
 group :development, :test do
 
-gem 'sqlite3' , :group => :development
+#gem 'sqlite3' , :group => :development
 
 #group :assets do
  # gem 'sass-rails',   '~> 3.1.4'
